@@ -1,1 +1,131 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+.container {
+    width: 1500px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
 
+  header {
+    height: 200px;
+    width: 100%;
+    background-color:springgreen;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+
+  .header-middle h1{
+        text-align:center;
+        font-size: 30px;
+        letter-spacing: 4px;
+        float: left;
+        padding-top: 50px;
+        font-weight: bolder;
+        font-style: normal;
+  }
+  
+  
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url('coding.jpg');
+    background-size: cover;
+    text-align: center;
+    height: 300px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 100px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color:black;
+    
+  }
+  
+  .top-wrapper h3, p {
+    margin-bottom: 3px;
+    color:black;
+   
+    font-size: 30px;
+  }
+ 
+  .activity-wrapper {
+    height: 700px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+    border: black solid 3px;
+    background-color: black;
+  }
+  
+  .heading {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: white
+  }
+  
+  .heading h2 {
+    font-weight:bolder;
+    font-size:30px;
+  }
+
+  .column {
+   float:left;
+    width: 23.33%;
+    padding: 5px;
+    border:white solid 5px;
+    
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .about{
+    background-color: springgreen;
+  }
+    
+
+  footer{
+    width:100%;
+    height: 200px;
+    background-color: green;
+  }
+
+  .footer-left{
+    float:left;
+
+  }
+  .footer-left li{
+    font-size: 30px;
+    font-weight: bolder;
+    color:white;
+  }
+  .footer-right{
+    float: right;
+
+  }
+  .footer-right h1{
+    font-size:20px;
+    font-style: normal;
+  }
+  button{
+    font-size: 20px;
+    color:blue;
+    background-color: green;
+    block-size: 50px;
+  }
